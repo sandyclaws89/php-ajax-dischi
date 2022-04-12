@@ -1,6 +1,6 @@
 
 <?php
-    include_once '/Users/Paolo/Documents/Boolean/php/php-ajax-dischi/db/data.php';
+    include_once __DIR__ . '/db/data.php';
     // $post_id = empty($_GET['post_id']) ? 0 : $_GET['post_id'];  
 ?>
 <!DOCTYPE html>

@@ -7,9 +7,9 @@
             <?php
                 foreach ($arr_disc as $disc) {?>
                     <div class="card flex">
-                        <img src="<?php $disc['poster']?>" alt="<?php $disc['author'] ?>">
-                            <h2>ciao <?php $disc['title'] ?></h2>
-                            <h3> <?php $disc['author'] ?></h3>
+                        <img src="<?php echo $disc['poster']?>" alt="<?php $disc['author'] ?>">
+                            <h2><?php echo $disc['title'] ?></h2>
+                            <h3> <?php echo $disc['author'] ?></h3>
                             
                     </div>
                 <?php } ?>  

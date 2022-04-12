@@ -30,24 +30,25 @@ nav{
 }
 
 .cards-container {
-    width: 60vw;
+    width: 80vw;
     height: 100vh;
-    background-color: #BF1515;
     flex-wrap: wrap;
-    
+    align-items: center;
 }
 
-.cards {
+.card {
     width: calc(100% / 5);
     height: 300px;
-    background-color: #048C8C;
-    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    flex-grow: 1;
+   
 
 }
 
-.cards img{
+.card img{
     padding: 10px;
     width: 100%;
     /* flex-grow: 2; */
-    height: 200px;
+    height: 250px;
 }

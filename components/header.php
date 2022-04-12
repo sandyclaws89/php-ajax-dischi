@@ -1,7 +1,7 @@
 <header class="flex">
     <nav class="">
         <div>
-            LOG SPOTIF
+            LOG SPOTIFY  
 
         </div>
         
